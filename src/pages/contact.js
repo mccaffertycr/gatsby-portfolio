@@ -11,16 +11,25 @@ const Contact = () => (
       <h1 className="heading">contact</h1>
     </div>
     <a
+      className="social-link"
       href="https://www.linkedin.com/in/connor-mccafferty-64592a162/"
       alt="linkedin link"
       style={{ textDecoration: `none` }}
     >
       <FaLinkedin size={'5rem'} style={{ marginRight: `1rem` }} />
     </a>
-    <a href="https://github.com/mccaffertycr" alt="github link">
+    <a
+      className="social-link"
+      href="https://github.com/mccaffertycr"
+      alt="github link"
+    >
       <FaGithub size={'5rem'} style={{ marginRight: `1rem` }} />
     </a>
-    <a href="https://twitter.com/mccaffertycr" alt="twitter link">
+    <a
+      className="social-link"
+      href="https://twitter.com/mccaffertycr"
+      alt="twitter link"
+    >
       <FaTwitter size={'5rem'} />
     </a>
     <p style={{ marginTop: `1.45rem` }}>

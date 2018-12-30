@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 module.exports = {
   siteMetadata: {
     title: `Connor McCafferty: Web Developer`,
@@ -15,6 +17,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `${process.env.GOOGLE_TRACKING_ID}`,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
