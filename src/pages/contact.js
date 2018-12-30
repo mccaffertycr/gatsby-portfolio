@@ -33,10 +33,10 @@ const Contact = () => (
       <FaTwitter size={'5rem'} />
     </a>
     <p style={{ marginTop: `1.45rem` }}>
-      email <br />
+      <strong>email</strong> <br />
       mccaffertycr@gmail.com <br />
       <br />
-      phone <br />
+      <strong>phone</strong> <br />
       (267) 258-8994
     </p>
   </Layout>
