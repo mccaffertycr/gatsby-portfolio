@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "gatsby-portfolio",
   "private": true,
-  "description": "portfolio",
+  "description": "personal portfolio made with Gatsby",
   "version": "0.1.0",
   "author": "Connor McCafferty <mccaffertycr@gmail.com>",
   "dependencies": {
@@ -41,9 +41,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mccaffertycr/"
-  },
-  "bugs": {
-    "url": "https://github.com/mccaffertycr"
+    "url": "https://github.com/mccaffertycr/gatsby-portfolio.git"
   }
 }
