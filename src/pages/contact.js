@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 
 const Contact = () => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO title="contact" />
     <div style={{ textAlign: `right` }}>
       <h1 className="heading">contact</h1>
     </div>

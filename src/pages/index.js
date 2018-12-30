@@ -7,7 +7,7 @@ import SEO from '../components/seo'
 
 const About = () => (
   <Layout>
-    <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="about" keywords={[`gatsby`, `application`, `react`]} />
     <div style={{ textAlign: `right` }}>
       <h1 className="heading">hi, I'm Connor</h1>
 
