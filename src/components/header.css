@@ -1,3 +1,11 @@
+.nav-container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
 .navbox {
   list-style-type: none;
   font-weight: 700;
@@ -7,7 +15,7 @@
 }
 .navbox-item {
   background: black;
-  width: 18rem;
+  width: 17.5rem;
   text-align: center;
   margin-bottom: 5px;
 }
@@ -71,4 +79,9 @@
 }
 .home-container:hover .svg-wrapper svg path {
   fill: white !important;
+}
+@media only screen and (max-width: 480px) {
+  .nav-container {
+    justify-content: center;
+  }
 }

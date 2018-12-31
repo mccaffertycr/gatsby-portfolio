@@ -10,15 +10,7 @@ const Header = () => (
       marginBottom: `1rem`,
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-        display: `flex`,
-        justifyContent: `flex-start`,
-      }}
-    >
+    <div className="nav-container">
       <div className="home-container">
         <Link className="navbox-logo-link" to="/">
           <div className="navbox-logo">
