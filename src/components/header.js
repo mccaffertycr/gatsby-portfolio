@@ -1,6 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
 
+import Logo from './logo'
 import './header.css'
 
 const Header = () => (
@@ -14,8 +15,19 @@ const Header = () => (
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
+        display: `flex`,
+        justifyContent: `flex-start`,
       }}
     >
+      <div className="home-container">
+        <Link className="navbox-logo-link" to="/">
+          <div className="navbox-logo">
+            <div className="svg-wrapper">
+              <Logo />
+            </div>
+          </div>
+        </Link>
+      </div>
       <ul className="navbox" style={{ listStyleType: `none` }}>
         <li className="navbox-item">
           <Link to="/" className="navbox-link">
@@ -33,12 +45,6 @@ const Header = () => (
           </Link>
         </li>
       </ul>
-      {/* <div
-        className="navbox-logo"
-        style={{ width: `8rem`, height: 75, marginLeft: 10, marginTop: 5 }}
-      >
-        <Link className="navbox-logo-link" to="/" />
-      </div> */}
     </div>
   </div>
 )

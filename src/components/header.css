@@ -1,20 +1,16 @@
 .navbox {
   list-style-type: none;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 700;
   font-size: 13px;
   margin-left: 0;
   height: 95px;
-  display: inline-block;
 }
-
 .navbox-item {
   background: black;
   width: 18rem;
   text-align: center;
   margin-bottom: 5px;
 }
-
 .navbox-link {
   background: black;
   color: white;
@@ -24,9 +20,12 @@
   width: 100%;
   height: 100%;
 }
-
 .navbox-logo {
-  display: inline-block;
+  width: 8rem;
+  height: 75.6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   outline: black solid 5px;
   padding: 5px;
   background: repeating-linear-gradient(
@@ -44,4 +43,32 @@
 .navbox-link:hover {
   color: black;
   background: white;
+}
+.home-container {
+  width: 128px;
+  height: 75.6px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.home-container:hover .navbox-logo {
+  background: repeating-linear-gradient(
+    45deg,
+    black,
+    black 5px,
+    white 5px,
+    white 10px
+  );
+}
+.svg-wrapper {
+  background: white;
+  height: 70px;
+  width: 70px;
+  border: solid black 5px;
+}
+.home-container:hover .svg-wrapper {
+  background: black;
+  border: solid white 5px;
+}
+.home-container:hover .svg-wrapper svg path {
+  fill: white !important;
 }
