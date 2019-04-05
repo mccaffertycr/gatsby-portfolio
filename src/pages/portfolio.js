@@ -6,6 +6,10 @@ import SEO from '../components/seo'
 
 const projects = [
   {
+    name: `daily sentiment journal`,
+    url: `https://daily-sentiment-journal.herokuapp.com/`,
+  },
+  {
     name: `memeoth`,
     url: `http://www.memeoth.com`,
   },
