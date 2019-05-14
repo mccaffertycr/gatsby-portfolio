@@ -1,4 +1,8 @@
-require('dotenv').config()
+let activeEnv = process.env.ACTIVE_ENV || process.env.NODE_ENV || 'development'
+
+require('dotenv').config({
+  path: `.env.${activeEnv}`,
+})
 
 module.exports = {
   siteMetadata: {
@@ -6,6 +10,8 @@ module.exports = {
     description: `Connor McCafferty: Web Developer`,
     author: `@mccaffertycr`,
   },
+    // Note: it must *not* have a trailing slash.
+  pathPrefix: `/pdf`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -20,7 +26,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `${process.env.GOOGLE_TRACKING_ID}`,
+        trackingId: process.env.GOOGLE_TRACKING_ID,
       },
     },
     {

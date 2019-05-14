@@ -32,7 +32,7 @@ const projects = [
 const Portfolio = () => (
   <Layout>
     <SEO title="portfolio" />
-    <div style={{ textAlign: `right` }}>
+    <div>
       <h1 className="heading">projects</h1>
       <div
         style={{
