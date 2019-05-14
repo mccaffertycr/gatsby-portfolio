@@ -642,6 +642,11 @@ pre tt:after {
   font-weight: 700;
 }
 
+.project-wrapper:hover {
+  border-radius: 5px;
+  box-shadow: 0 5px 10px 0 lightsteelblue, 0 6px 20px 0 lightsteelblue;
+}
+
 .social-link:hover {
   color: lightsteelblue;
 }

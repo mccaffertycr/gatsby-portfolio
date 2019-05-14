@@ -76,6 +76,7 @@ class Project extends Component {
             >
               <a href={'modalDialog'} onClick={this.toggleModal}>
                 <Img
+                  className="project-wrapper"
                   fluid={data[`placeholderImage${idx}`].childImageSharp.fluid}
                 />
               </a>
