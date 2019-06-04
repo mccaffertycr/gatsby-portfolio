@@ -32,7 +32,7 @@ const About = () => (
           user experiences and interested in gamification as a way to
           incentivize engagement and interactivity. <br />
           <br />
-          Also, I <Emoji symbol="💙" label="blue heart" /> React.
+          I <Emoji symbol="💙" label="blue heart" /> React.
         </p>
         <div className="headshot-wrapper" style={{ minWidth: 365 }}>
           <Headshot />
